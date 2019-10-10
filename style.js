@@ -45,6 +45,11 @@ function showMenu()
         $("#imgbg").toggleClass("imgbgtrans");
         $("#img1").toggleClass("img1trans");
         $("#img2").toggleClass("img2trans");
+        $("#img3").toggleClass("img3trans");
+        $("#img4").toggleClass("img4trans");
+        $("#img5").toggleClass("img5trans");
+
+
 
         
     }
@@ -52,6 +57,11 @@ function showMenu()
         $("#imgbg").toggleClass("imgbgtrans");
         $("#img1").toggleClass("img1trans");
         $("#img2").toggleClass("img2trans");
+        $("#img3").toggleClass("img3trans");
+        $("#img4").toggleClass("img4trans");
+        $("#img5").toggleClass("img5trans");
+
+
 
         // $("img").fadeOut(3000);
     }

@@ -20,7 +20,7 @@ left: -150px;
 bottom: 0;
 height: 100px;
 width: 150px;
-transition: left .05s linear;
+transition: left .1s linear;
 }
 
 #img1{
@@ -29,7 +29,7 @@ transition: left .05s linear;
     bottom: -100px;
     height: 100px;
     width: 150px;
-    transition: bottom .15s linear;
+    transition: bottom .1s linear .1s;
 }
 
 #img2{
@@ -38,34 +38,34 @@ transition: left .05s linear;
     bottom: 0px;
     height: 200px;
     width: 250px;
-    transition: left .7s linear;
+    transition: left .1s linear .2s;
 }
 
 #img3{
     position: absolute;
     left: 0;
-    bottom: 200px;
+    bottom: -300px;
     height: 300px;
     width: 400px;
-    transition: left 3s ease-in;
+    transition: bottom .1s ease-in .3s;
 }
 
 #img4{
     position: absolute;
-    left: 400px;
+    left: -400px;
     bottom: 0;
     height: 300px;
     width: 400px;
-    transition: left 3s ease-in;
+    transition: left .1s ease-in .4s;
 }
    
 #img5{
     position: absolute;
-    left: 400px;
-    bottom: 300px;
+    left: -600px;
+    bottom: -500px;
     height: 500px;
     width: 600px;
-    transition: left 3s ease-in;
+    transition: left .3s ease-in .5s, bottom .3s ease-in .5s;
 
 } 
  
@@ -92,16 +92,17 @@ transition: left .05s linear;
 }
 
 .img3trans{
-    left: 150px !important;
+    bottom: 200px !important;
 }
 
 
 .img4trans{
-    left: 150px !important;
+    left: 400px !important;
 }
 
 .img5trans{
-    left: 150px !important;
+    left: 400px !important;
+    bottom: 300px !important;
 }
 
 
