@@ -2,10 +2,107 @@ body{
     background-image: url("img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center top;
 }
 
-a img{
-    width: 200px;
-    height: 200px;
+button{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
 }
+
+
+#imgbg{
+position: absolute;
+left: -150px;
+bottom: 0;
+height: 100px;
+width: 150px;
+transition: left .05s linear;
+}
+
+#img1{
+    position: absolute;
+    left: 0px;
+    bottom: -100px;
+    height: 100px;
+    width: 150px;
+    transition: bottom .15s linear;
+}
+
+#img2{
+    position: absolute;
+    left: -250px;
+    bottom: 0px;
+    height: 200px;
+    width: 250px;
+    transition: left .7s linear;
+}
+
+#img3{
+    position: absolute;
+    left: 0;
+    bottom: 200px;
+    height: 300px;
+    width: 400px;
+    transition: left 3s ease-in;
+}
+
+#img4{
+    position: absolute;
+    left: 400px;
+    bottom: 0;
+    height: 300px;
+    width: 400px;
+    transition: left 3s ease-in;
+}
+   
+#img5{
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+    height: 500px;
+    width: 600px;
+    transition: left 3s ease-in;
+
+} 
+ 
+/* @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+        from { opacity: 1; }
+        to   { opacity: 0; }
+} */
+
+.imgbgtrans{
+    left: 0px !important;
+}
+
+.img1trans{
+    bottom: 100px !important;
+}
+
+.img2trans{
+    left: 150px !important;
+}
+
+.img3trans{
+    left: 150px !important;
+}
+
+
+.img4trans{
+    left: 150px !important;
+}
+
+.img5trans{
+    left: 150px !important;
+}
+
+
+
